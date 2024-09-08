@@ -84,6 +84,9 @@ iframe {
     position: relative;
     flex-basis: 40%;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home-banner-content {
@@ -129,6 +132,7 @@ iframe {
 .fancy-button-dark {
     border: 1.5px solid black;
     color: black;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .adaptive-border-button {
