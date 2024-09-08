@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_primary.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="style_primary.css">
     <title>Qualifications</title>
 </head>
 
@@ -16,37 +16,78 @@
         <a href="service.html">Service</a>
         <a href="ai.html">AI</a>
     </header>
-    <div class="main-content">
-        <h3 class="page-header">Qualifications</h3>
+    <div class="side-by-side-layout">
+        <div class="resume-banner">
+            <div>
+                <h3 class="page-header">Qualifications</h3>
+                <h4>Resume</h4>
+            </div>
+            <iframe
+                src="https://drive.google.com/file/d/1fmPzVGGGW7SSGlLr7I5ZKf4k-W1qxrvi/preview"></iframe>
+        </div>
 
-        <h4>Resume</h4>
-        <iframe src="https://drive.google.com/file/d/1fmPzVGGGW7SSGlLr7I5ZKf4k-W1qxrvi/preview"></iframe>
+        <div class="main-content">
+            <h4>Technical Skills</h4>
+            <p>My primary technical experiences involves full-stack and back-end
+                web development. During my first two internships as a full-stack
+                .NET developer, I was involved throughout the full SDLC, from
+                database schema design to API design/development all the way to
+                the UI. I'm comfortable with database migration work and I also
+                understand the necessary aspects of ensuring seamless
+                interaction between the front end-end and back-end.</p>
+            <p>At my last internship, I worked on a telemetry data analysis tool
+                suite to support the hypersonic missile development team at
+                Sandia National Labs. My team's primary task was to ensure that
+                our legacy codebase could migrate to a newer version of the
+                telemetry analysis software that it relied on, which would be
+                hosted on a REST API service. In this role, I occasionally had
+                to manually inspect binary files containing telemetry data to
+                ensure that our modifications didn't introduce unintended side
+                effects.</p>
 
-        <h4>Technical Skills</h4>
-        <p>My primary technical experiences involves full-stack and back-end web development. During my first two internships as a full-stack .NET developer, I was involved throughout the full SDLC, from database schema design to API design/development all the way to the UI. I'm comfortable with database migration work and I also understand the necessary aspects of ensuring seamless interaction between the front end-end and back-end.</p>
-        <p>At my last internship, I worked on a telemetry data analysis tool suite to support the hypersonic missile development team at Sandia National Labs. My team's primary task was to ensure that our legacy codebase could migrate to a newer version of the telemetry analysis software that it relied on, which would be hosted on a REST API service. In this role, I occasionally had to manually inspect binary files containing telemetry data to ensure that our modifications didn't introduce unintended side effects.</p>
+            <h4>Interest Areas</h4>
+            <p>Recently, I've developed a deep passion for Natural Language
+                Processing (NLP) research. I'm specifically interested in
+                studying how modern NLP approaches like Transformer language
+                models build upon previous literature to generate more robust
+                language processing applications.</p>
+            <p>Currently, I'm working on a research project as part of a
+                year-round internship with Sandia National Labs. Our team is
+                engaged in a multi-year project with the goal of creating what
+                we termed a "virtual subject matter expert." Essentially, we
+                want to develop a natural language chatbot that can answer a
+                user's question about anything in a document corpus. However,
+                rather than present this as a traditional search engine, we want
+                to incorporate a Large Language Model (LLM) to generate
+                natural-sounding and contextualized responses.</p>
+            <p>To gain the necessary technical foundation to start this project,
+                I'm currently learning about traditional approaches within NLP
+                to process and generate text:</p>
+            <ul>
+                <li>Recurrent Neural Networks (RNNs)</li>
+                <li>Variants of RNNs: LSTMS and GRUs</li>
+                <li>Encoder-decoder architectures</li>
+                <li>Word embeddings as semantic representations of words</li>
+                <li>Word2Vec models to learn word embeddings</li>
+                <li>GloVe embeddings</li>
+                <li>Transformer networks: self-attention and multi-head
+                    attention</li>
+                <li>Graph Neural Networks (GNNs)</li>
+                <li>Knowledge graphs</li>
+                <li>Retrieval-Augmented Generation (RAG)</li>
+                <li>Graph RAG</li>
+                <li>Sparse and dense retrieval</li>
+            </ul>
+            <p></p>
 
-        <h4>Interest Areas</h4>
-        <p>Recently, I've developed a deep passion for Natural Language Processing (NLP) research. I'm specifically interested in studying how modern NLP approaches like Transformer language models build upon previous literature to generate more robust language processing applications.</p>
-        <p>Currently, I'm working on a research project as part of a year-round internship with Sandia National Labs. Our team is engaged in a multi-year project with the goal of creating what we termed a "virtual subject matter expert." Essentially, we want to develop a natural language chatbot that can answer a user's question about anything in a document corpus. However, rather than present this as a traditional search engine, we want to incorporate a Large Language Model (LLM) to generate natural-sounding and contextualized responses.</p>
-        <p>To gain the necessary technical foundation to start this project, I'm currently learning about traditional approaches within NLP to process and generate text:</p>
-        <ul>
-            <li>Recurrent Neural Networks (RNNs)</li>
-            <li>Variants of RNNs: LSTMS and GRUs</li>
-            <li>Encoder-decoder architectures</li>
-            <li>Word embeddings as semantic representations of words</li>
-            <li>Word2Vec models to learn word embeddings</li>
-            <li>GloVe embeddings</li>
-            <li>Transformer networks: self-attention and multi-head attention</li>
-            <li>Graph Neural Networks (GNNs)</li>
-            <li>Knowledge graphs</li>
-            <li>Retrieval-Augmented Generation (RAG)</li>
-            <li>Graph RAG</li>
-            <li>Sparse and dense retrieval</li>
-        </ul>
-        <p></p>
+            <footer>
+                © 2024 Kevin Zhang
+                <button id="toggle-button" class="fancy-button adaptive-border-button">Change
+                    Style</button>
+            </footer>
+        </div>
     </div>
-    <footer>© 2024 Kevin Zhang</footer>
+    <script src="style-toggle.js"></script>
 </body>
 
 </html>
